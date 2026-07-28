@@ -1,0 +1,28 @@
+{
+  "roles": {
+    "teller": {
+      "groups": ["GRP-Teller-Apps", "GRP-Branch-Shared"],
+      "privileged": false
+    },
+    "branch_manager": {
+      "groups": ["GRP-Teller-Apps", "GRP-Branch-Shared", "GRP-Branch-Approvals"],
+      "privileged": false
+    },
+    "loan_officer": {
+      "groups": ["GRP-Lending-Core", "GRP-Credit-Reports"],
+      "privileged": false
+    },
+    "it_admin": {
+      "groups": ["GRP-IT-Ops", "GRP-Server-Admins"],
+      "privileged": true
+    },
+    "compliance_analyst": {
+      "groups": ["GRP-Compliance-ReadAll", "GRP-Audit-Evidence"],
+      "privileged": false
+    }
+  },
+  "separation_of_duties": [
+    ["GRP-Branch-Approvals", "GRP-Teller-Apps:approver"],
+    ["GRP-Server-Admins", "GRP-Compliance-ReadAll"]
+  ]
+}

@@ -1,0 +1,9 @@
+employee_id,first_name,last_name,department,role,status,start_date,end_date
+E1001,Maria,Chen,Retail Banking,teller,active,2025-01-15,
+E1002,James,Okoro,Retail Banking,branch_manager,active,2024-06-01,
+E1003,Priya,Nair,Lending,loan_officer,active,2025-03-10,
+E1004,Tom,Alvarez,IT,it_admin,active,2023-11-20,
+E1005,Sara,Kim,Compliance,compliance_analyst,active,2025-02-01,
+E1006,Dev,Patel,Lending,loan_officer,moved,2024-08-15,
+E1007,Lena,Fischer,Retail Banking,teller,terminated,2024-01-10,2026-06-30
+E1008,Omar,Hassan,IT,it_admin,terminated,2023-05-01,2026-05-15

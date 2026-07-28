@@ -1,0 +1,22 @@
+[
+  {
+    "control": "AC-2(12)",
+    "type": "impossible_travel",
+    "user": "maria.chen@corpbank.example",
+    "from": "Milwaukee, US",
+    "to": "Singapore, SG",
+    "km": 14942,
+    "hours": 1.5,
+    "implied_kmh": 9961
+  },
+  {
+    "control": "AC-2(12)",
+    "type": "impossible_travel",
+    "user": "tom.alvarez@corpbank.example",
+    "from": "Milwaukee, US",
+    "to": "Frankfurt, DE",
+    "km": 6891,
+    "hours": 1.25,
+    "implied_kmh": 5513
+  }
+]
